@@ -1,9 +1,14 @@
 h1 {
     font-size: 20px
     text-align: center
+    color: black
 }
 li {
     display: inline;
     float: left;
     padding: 8px;
     }
+p {
+    color: black
+    text-align: center
+}
