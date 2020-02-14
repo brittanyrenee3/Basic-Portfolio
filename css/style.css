@@ -59,6 +59,17 @@ h1 {
     font-weight: bold;
     width: 960px;
 }
+.portfolio {
+    padding: 0px 30px;
+    margin: 40px auto; 
+    font-size: 18px;
+    color: teal;
+    text-align: left;
+    background-color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    width: 960px;
+}
 p {
     margin: 40px auto; 
     font-size: 18px;
