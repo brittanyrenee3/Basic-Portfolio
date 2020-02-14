@@ -1,19 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/webb.png);
+}
+header {
+    background-color: white;
+}
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
 h1 {
-    padding: 10px 0;
+    padding: 20px 0;
     color: white;
-    text-align: left;
+    text-align: center;
     background: teal;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border: 30px
-    margin-bottom: 20px;
     font-size: 18px;
-    float: left;
-    position: absolute;
-    border-width: 30px;
-    border-style: initial;
-    border-color: initial;
-    border-image: initial;
-    display: block;
+    width: 250px;
+    margin: 0;
 }
 .topnav {
     float: right;
@@ -21,18 +30,87 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: black;
     font-size: 10px;
+    position: relative;
+    top: 20px;
 }
-h2 {
-    padding: 10px 0;
-    margin: 10;
+.me {
+    padding: 0px 30px;
+    margin: 40px auto; 
     font-size: 18px;
     color: teal;
     text-align: left;
-    background white;
+    background: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: fixed;
-    border: 30px
-    display: block;
     font-weight: bold;
+    width: 960px;
 }
+p1 {
+    margin: 40px auto; 
+    font-size: 18px;
+    color: teal;
+    text-align: center;
+    background: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    width: 960px;
+    padding-bottom: 30px;
+}
+p2 {
+    border: 30px;
+    margin: 40px auto; 
+    font-size: 18px;
+    color: teal;
+    text-align: center;
+    background: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    width: 960px;
+}
+.footer {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    .form-content {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+    input[type=text], select, textarea {
+        width: 960px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=submit] {
+        background-color: teal;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type=email] {
+        background-color: teal;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .email {
 
+      }
