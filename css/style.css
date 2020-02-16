@@ -63,12 +63,15 @@ body {
     padding: 5px 30px;
     margin: 20px auto 80px auto;
     font-size: 18px;
-    color: teal;
+    color: black;
     text-align: left;
     background-color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
     width: 960px;
+}
+#contact-header {
+    color: teal;
 }
 
 .portfolio {
@@ -87,7 +90,7 @@ p {
     margin: 40px auto;
     font-size: 18px;
     color: #777777;
-    font-family: font-family: 'Sriracha', cursive;
+    font-family: 'Sriracha', cursive;
     font-family: 'Odibee Sans', cursive;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -140,7 +143,7 @@ input[type=message] {
 }
 
 input[type=submit] {
-    background-color: blacl;
+    background-color: teal;
     color: white;
     padding: 12px 20px;
     border: none;
